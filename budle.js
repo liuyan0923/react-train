@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "67c7c01dd5f95bd76516";
+/******/ 	var hotCurrentHash = "bcfb6b810c888e0ee8b3";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -23403,7 +23403,19 @@ var styles = {
   },
   battleBody2div: {
     display: 'flex',
-    flexDirection: 'row'
+    flexDirection: 'row',
+    justifyContent: 'space-around'
+  },
+  fromFlex: {
+    display: 'flex',
+    flexDirection: 'column',
+    textAlign: 'left'
+  },
+  battleBodyTwo: {
+    textAlign: 'center',
+    display: 'flex',
+    flexDirection: 'column',
+    marginBottom: '50px'
   }
 };
 var _default = styles;
